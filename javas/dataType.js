@@ -5,3 +5,4 @@ let age= 20
 let city="new"
 let single=true
 console.log(single);
+console.log(single);
