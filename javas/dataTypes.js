@@ -6,3 +6,4 @@ const function01= function(){
     console.log(4)
 }
 function01();
+console.log(typeof function01)
