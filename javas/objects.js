@@ -14,5 +14,12 @@ const JsUser={
 
 console.log(JsUser.isLoggedIn)
 console.log(JsUser["full name"])
-console.log(JsUser);
+
 console.log(typeof mySym);
+
+JsUser.greeting=  function(){
+    console.log("Hello")
+}
+
+console.log(JsUser.greeting())
+console.log(JsUser);
