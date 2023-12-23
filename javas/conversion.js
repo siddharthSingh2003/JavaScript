@@ -8,3 +8,5 @@ console.log(value)
 str='hello'
 
 console.log(typeof str);
+
+console.log(typeof str);
