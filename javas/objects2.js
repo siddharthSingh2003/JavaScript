@@ -46,3 +46,12 @@ const navbar= ({company}) => {
 navbar(company="limted")
 
 console.log(company)
+
+//APIs
+
+// APIs can be in object form and array form both are possible
+ 
+
+//JSON
+
+// JSON file is just object without name for fetching we convert json in object thne as usual. 
