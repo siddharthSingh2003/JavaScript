@@ -25,3 +25,24 @@ console.log(obj1)
 
 // const obj3={...obj1,...obj2}
 // console.log(obj3)
+
+const course ={
+    coursename :" JS",
+    price:99,
+    courseInstructor:"Siddharth "
+}
+
+// destructuring
+const {courseInstructor: instructor}= course
+
+console.log(instructor)
+
+//react destructuring
+
+const navbar= ({company}) => {
+
+}
+
+navbar(company="limted")
+
+console.log(company)
