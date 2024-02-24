@@ -12,7 +12,7 @@ const map = new Map()
 map.set('IN', "india")
 map.set("US", "uSA")
 
-for (const [key, value] of map) {
+for (const [key, value] of map) {  //destructure of array 
     console.log(key, ':',value);
     
 }
