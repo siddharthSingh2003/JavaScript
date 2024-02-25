@@ -4,7 +4,7 @@ const coding = ["js", "ruby", "java", "pyhton ", "cpp"]
 //     console.log(item);
 // })
 
-// coding.forEach((val) => {
-//     console.log(val);
-// })
+coding.forEach((val,index,arr) => {
+   console.log(val,index,arr);
+ })
 
