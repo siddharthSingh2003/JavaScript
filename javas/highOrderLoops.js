@@ -17,4 +17,5 @@ for (const [key, value] of map) {  //destructure of array
     
 }
 
+
 // objects are not iteratable 
