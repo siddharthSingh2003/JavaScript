@@ -16,4 +16,3 @@ console.log(divide(10, 2)); // Output: 5
 console.log(divide(10, 0)); // Output: An error occurred: Division by zero is not allowed. 
                              
 console.log(divide(12, 3)); // Output: 4
-uhiuhihjnb
