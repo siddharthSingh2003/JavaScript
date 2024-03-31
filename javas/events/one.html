@@ -62,23 +62,52 @@
     //   alert("owl clicked");
     // };
 
-    document.getElementById("owl").addEventListener(
+    document.getElementById("images").addEventListener(
       "click",
       function (e) {
         //alert('owl clicked')
 
-        console.log(e);
+        console.log("clicked inside the ul");
       },
       false
     );
+
+    //  document.getElementById("owl").addEventListener(
+    //    "click",
+    //    function (e) {
+    //      console.log("clicked owl");
+    //      e.stopPropagation();
+    //    },
+    //    false
+    //  );
 
     //type, timestamp, defaultPrevented
     //target, toElement, srcElement, currentTarget
     // clientX, clientY, screenX, screenY
     //altKe, ctrlkey, shiftkey, keycode
 
-    //event propogation
+    //event propogation  => true: capturing,  false: bubbling
 
     // attachEvent()
+
+    //document.getElementById("google").addEventListener(
+    //  "click",
+    //  function (e) {
+    //    e.preventDefault();
+    //   e.stopPropagation();
+    //   console.log("google clicked");
+    // },
+    //  false
+    //);
+
+    document.querySelector("#images").addEventListener("click", function (e) {
+      console.log(e.target.parentNode);
+      if (e.target.tagName === "IMG") {
+        let removeIt = e.target.parentNode;
+        removeIt.remove();
+      }
+
+      //removeIt.parentNode.removeChild(removeIt)
+    });
   </script>
 </html>
