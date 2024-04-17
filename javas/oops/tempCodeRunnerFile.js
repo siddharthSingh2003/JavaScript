@@ -1,0 +1,2 @@
+heroPower.sid()
+// Heroes.sid()
